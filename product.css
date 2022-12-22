@@ -1,0 +1,78 @@
+.product{ 
+    width: 90%; 
+    margin: 0 auto; 
+} 
+.arrow-product img{ 
+    width: 50px; 
+} 
+.name-product{ 
+    font-size: 40px; 
+    text-align: center; 
+    margin: 50px; 
+    font-family: 'Inter', sans-serif; 
+} 
+.image-product{ 
+    width: 400px; 
+    text-transform: uppercase; 
+} 
+.container-product{ 
+    display: flex; 
+} 
+.name-product2{ 
+    font-size: 35px; 
+    margin: 40px; 
+    text-transform: uppercase; 
+    font-family: 'Open Sans', sans-serif; 
+} 
+.price{ 
+    font-size: 25px; 
+    color: green; 
+    padding: 40px 0 40px 0; 
+    text-decoration: underline;
+    font-family: 'Open Sans', sans-serif; 
+} 
+.icon{ 
+    background-image: url(https://www.citypng.com/public/uploads/preview/yellow-five-stars-review-rating-hd-transparent-png-116703284916q83bp0vqy.png); 
+    width: 200px; 
+    height: 80px; 
+    background-size: cover; 
+    background-position: center; 
+} 
+button{ 
+    font-size: 35px; 
+    color: green; 
+    text-transform: uppercase; 
+    margin-top: 80px; 
+    width: 150px; 
+    background-color: transparent; 
+} 
+ 
+ 
+ 
+@media (max-width: 716px) { 
+    .arrow-product img{ 
+        width: 30px; 
+    } 
+    .container-product img{ 
+        width:100px; 
+        height:200px; 
+    }  
+    .name-product2{ 
+        font-size: 16px; 
+        margin: 0;
+        padding: 0;
+    } 
+    .price{ 
+        padding-top: 6px; 
+    } 
+    .lorem-text{ 
+        font-size: 10px; 
+        padding: 0; 
+        margin: 0; 
+    } 
+    button{ 
+        width: 100px; 
+        font-size: 20px; 
+        margin-top: 10px; 
+    } 
+}
